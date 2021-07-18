@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    config:
+     # uri: http://localhost:9527
+      name: config
+      label: master
+      profile: dev
+      # 从注册中心去找config服务的地址
+      discovery:
+        enabled: true
+        service-id: config-server
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

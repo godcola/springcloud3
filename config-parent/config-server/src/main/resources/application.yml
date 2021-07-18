@@ -1,0 +1,20 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: config-server
+  # spring cloud config 配置
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/godcola/itheima-config.git
+         # username:
+         #  password:
+      label: master # 分支配置
+# 将自己注册到eureka中
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

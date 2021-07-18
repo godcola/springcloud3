@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-parent/config-consumer/config-consumer.iml" filepath="$PROJECT_DIR$/config-parent/config-consumer/config-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-parent/config-parent.iml" filepath="$PROJECT_DIR$/config-parent/config-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-parent/config-provider/config-provider.iml" filepath="$PROJECT_DIR$/config-parent/config-provider/config-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-parent/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-parent/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-parent/eureka-server-config/eureka-server-config.iml" filepath="$PROJECT_DIR$/config-parent/eureka-server-config/eureka-server-config.iml" />
+    </modules>
+  </component>
+</project>
